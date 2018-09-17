@@ -1,4 +1,4 @@
-ECRREPOURI	:= "903779448426.dkr.ecr.us-west-2.amazonaws.com/pm2-express-demo"
+ECRREPOURI	:= "023205376799.dkr.ecr.us-west-2.amazonaws.com/pm2-express-demo"
 
 build:
 	docker build -t pm2-express-demo .
