@@ -14,7 +14,7 @@ const app = express();
 app.use(morgan('combined'))
 
 app.get('/', (req, res) => {
-  res.send('Hello D-Link\n');
+  res.send('Hello CI/CD\n');
 });
 
 app.listen(PORT, HOST);
